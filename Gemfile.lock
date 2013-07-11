@@ -63,6 +63,7 @@ PLATFORMS
 DEPENDENCIES
   bundler
   jeweler (~> 1.8.4)
+  rake
   rdoc
   rspec
   simplecov
