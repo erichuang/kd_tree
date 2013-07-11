@@ -18,7 +18,7 @@ Jeweler::Tasks.new do |gem|
   gem.homepage = "http://github.com/erichuang/kd_tree"
   gem.license = "MIT"
   gem.summary = %Q{k-d tree}
-  gem.description = %Q{TODO: longer description of your gem}
+  gem.description = %Q{A simple Ruby implementation of a k-d tree.}
   gem.email = "eric@erichuang.info"
   gem.authors = ["Eric Huang"]
   # dependencies defined in Gemfile
@@ -31,9 +31,10 @@ RSpec::Core::RakeTask.new(:spec) do |spec|
   spec.pattern = FileList['spec/**/*_spec.rb']
 end
 
-RSpec::Core::RakeTask.new(:rcov) do |spec|
+require 'simplecov'
+RSpec::Core::RakeTask.new(:cov) do |spec|
+  SimpleCov.start
   spec.pattern = 'spec/**/*_spec.rb'
-  spec.rcov = true
 end
 
 task :default => :spec
