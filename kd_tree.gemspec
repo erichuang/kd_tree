@@ -14,7 +14,7 @@ Gem::Specification.new do |s|
   s.email = "eric@erichuang.info"
   s.extra_rdoc_files = [
     "LICENSE.txt",
-    "README.rdoc"
+    "README.md"
   ]
   s.files = [
     ".document",
@@ -22,9 +22,10 @@ Gem::Specification.new do |s|
     "Gemfile",
     "Gemfile.lock",
     "LICENSE.txt",
-    "README.rdoc",
+    "README.md",
     "Rakefile",
     "VERSION",
+    "kd_tree.gemspec",
     "lib/kd_tree.rb",
     "spec/kd_tree_spec.rb",
     "spec/spec_helper.rb"
