@@ -1,5 +1,7 @@
 # kd_tree
 
+[![Build Status](https://travis-ci.org/erichuang/kd_tree.png)](https://travis-ci.org/erichuang/kd_tree)
+
 A k-d tree (short for k-dimensional tree) is a space-partitioning data structure for
 organizing points in a k-dimensional space. k-d trees are a useful data structure for
 several applications, such as searches involving a multidimensional search key (e.g.
