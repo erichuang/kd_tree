@@ -23,3 +23,7 @@ space partitioning trees. Refer to [Wikipedia](https://en.wikipedia.org/wiki/K-d
 Copyright (c) 2013 Eric Huang. See LICENSE.txt for
 further details.
 
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/erichuang/kd_tree/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
